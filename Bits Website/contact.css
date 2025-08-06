@@ -1,0 +1,44 @@
+body{
+    background-image: url(pen.webp);
+    background-repeat:no-repeat;
+    background-size:1210px 600px;
+}
+form{
+    border:solid 1px white hidden;
+    width:350px;
+    text-align:center; 
+    margin-left:450px;
+    margin-top:45px; 
+    height:480px;
+    border-radius: 9px;
+    border-style: ridge;
+    color:aliceblue
+
+}
+h1{
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+label{
+    color:white;
+    font-weight: Bold;
+}
+input{
+    height:26px;
+    width:250px;
+    border-radius: 10px;
+}
+button{
+    height:40px;
+    width:100px;
+    border-radius:18px;
+    border-color: white hidden;
+    background-color: rgb(250, 232, 209);
+}
+button:hover{
+    background-color:aqua;
+}
+textarea{
+    border-radius:10px;
+}

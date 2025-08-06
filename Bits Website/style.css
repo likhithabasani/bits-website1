@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+}
+#links{
+    
+    height:38px;
+    background-color:red;
+    line-height:38px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1{
+    padding-left:35px;
+}
+.out{
+    border:solid 1px;
+    height:120px;
+    display:flex;
+}
+#in1,#in2{
+    border:solid 1px;
+    height:120px;
+}
+#in1{
+    width:120px;
+}
+#in2{
+    width:1200px;
+    text-align:center;
+    background-color:rgb(245, 201, 135);
+}
+#clg{
+    font-size:40px;
+    color:red;
+}
+#txt1,#txt2{
+    font-size: 20px;
+    font-weight:bold;
+}
+#ugc{
+    background-color:brown;
+    height:25px;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+#navbox{
+    height:50px;
+}
+ul li{
+    float:left;
+    border:solid 1px;
+    height:50px;
+    width:200px;
+    background-color:rgb(237, 217, 187);
+    text-align:center;
+    line-height:50px;
+    margin-right:20px;
+    border-radius:20px;
+    margin-bottom:1px;
+}
+ul li a{
+    text-decoration: none;
+    font-size:22px;
+    color:rgb(47, 59, 142);
+}
+ul{
+    background-color:rgb(155, 135, 104);
+    list-style:none;
+}
+ul li ul li{
+    display:none;
+}
+ul li:hover ul li{
+    display:block;
+    z-index:1;
+    position:relative;
+}
+ul li:hover{
+    background-color: orange;
+}
+.logos{
+    border:solid 1px;
+    height:200px;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(165, 10, 10);
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border:solid 1px;
+    height:200px;
+    width:180px;
+    border-radius:50%;
+    border-color:rgb(165, 10, 10);
+}
+.l1,.l2,.l3,.l4,.l5{
+    height:160px;
+    width:160px;
+    border-radius:50%;
+ margin-top:20px;
+
+}
+.obox{
+     height:400px;
+     display:flex;
+     justify-content:space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    height:400px;
+}
+#inbox1{
+    width:500px;
+    background-image: url(download.webp);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(2.webp);
+    }
+    10%{
+        background-image: url(3.webp);
+    }
+    20%{
+        background-color: url(4.jpg);
+    }
+    30%{
+        background-image:url(5.jpg) ;
+    }
+    40%{
+        background-image:url(6.jpg);
+    }
+}
+#inbox2,#inbox3{
+    width:300px;
+    text-align:center;
+}
+#top{
+    margin-left:100px;
+}
